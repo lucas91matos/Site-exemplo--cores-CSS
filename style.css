@@ -1,0 +1,50 @@
+@charset "UFT-8";
+* {
+    font-family: Arial, Helvetica, sans-serif
+} 
+
+body{
+    /*Usando degradê na tela principal*/
+    background-image: linear-gradient(to right, #dad5b7, #c2b79b, #aa9d8b,#bbd1d8)
+}
+ 
+    p {
+        /*Justificando os parágrafos "<p>"*/
+      text-align: justify; 
+    }
+    /*Criando tela do texto total*/
+    main{
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 05px 5px 15px #292621c9;
+        width: 600px;
+        padding: 10px;
+        margin: auto;
+    }
+    /*Cor no título principal "Site de exemplo em cores CSS <h1>"*/
+    h1{
+        color: #eccc13;
+        text-align: center;
+        text-shadow: 3px 3px 3px rgb(82, 74, 4);
+    }
+    /*Adicioando cor no título do texto <h2>*/
+    h2{
+        color: #667175;
+    }
+    /*Adicionei minha imagem "pequeno garfanhoto.png" ao texto esquerda*/
+    #imgpos {
+		position: absolute;
+		left: 17%;
+		top: 35%;
+		margin-left: 10px;
+		margin-top: 10px;
+		}
+        /*Adicionei minha imagem "pequeno garfanhoto2.png" ao texto a direita*/
+        #imgpos2 {
+            position: absolute;
+            left: 73%;
+            top: 35%;
+            margin-left: 10px;
+            margin-top: 10px;
+            }
+  
