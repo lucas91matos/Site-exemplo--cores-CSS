@@ -5,7 +5,7 @@
 
 body{
     /*Usando degradê na tela principal*/
-    background-image: linear-gradient(to right, #dad5b7, #c2b79b, #aa9d8b,#bbd1d8)
+    background-image: linear-gradient(to right, #dad5b7, #c2b79b, #aa9d8b,#bbd1d8);
 }
  
     p {
